@@ -1,4 +1,4 @@
 # Single Item
 
 Description:
-  The task is create single item page with given requirements.
+  The task is to create single item page with few requirements.
