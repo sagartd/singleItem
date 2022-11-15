@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.main-img {
+  height: 50rem;
+  box-shadow: 0 0 3px 0 grey;
+  cursor: crosshair;
+  border-radius: 7px;
+}
+
+.star-icon {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: orange;
+}
+
+.active-elm {
+  box-shadow: 1px 1px 2px #c0c0c0;
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+}
