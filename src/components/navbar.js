@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import {BsCart3} from "react-icons/bs"
 //import { HiOutlineShoppingBag } from "react-icons/hi";
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
               className="navbar-link cart-trolly-link"
               onClick={() => sethamMenu(false)}
             >
-              <img src="./frame29.svg" alt="frame" className="cart-trolly"/>
+              <BsCart3 className="cart-trolly"/>
               {/* <HiOutlineShoppingBag className="cart-trolly" /> */}
               <span className="cart-total-item">2</span>
             </NavLink>
@@ -112,6 +113,7 @@ const Enav = styled.nav`
     .cart-trolly {
       position: relative;
       width: 3rem;
+      font-size: 3.5rem
     }
     .cart-total-item {
       width: 1.9rem;

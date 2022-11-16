@@ -7,7 +7,10 @@ const Account = () => {
     <Waccount>
       <h2>404</h2> <h3>Account Page</h3>
       <div>
-        <img src="./undcon.jpg" alt="constuc" />
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/004/603/676/original/under-construction-page-tiny-people-error-404-illustration-free-vector.jpg"
+          alt="constuc"
+        />
       </div>
       <NavLink to="/">
         <button>Home</button>
